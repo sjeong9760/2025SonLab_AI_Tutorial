@@ -1,25 +1,65 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <title>AI4Science Tutorial</title>
-  <link rel="stylesheet" href="assets/style.css" />
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: #f9f9f9;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: left;
+    }
+    th {
+      background-color: #dce6f1;
+    }
+    a {
+      color: #0066cc;
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
   <h1>🧪 AI4Science Tutorial</h1>
-  <p>PyTorch를 활용한 실습 기반 강의</p>
+  <p>PyTorch 실습 기반의 AI for Science 튜토리얼입니다.</p>
 
-  <h2>🗓️ 커리큘럼</h2>
-  <ul>
-    <li><strong>Week 1:</strong> 머신러닝 기초 소개 — <a href="notebooks/week1_intro.ipynb">노트북</a> | <a href="slides/week1_intro.pdf">PDF</a></li>
-    <li><strong>Week 2:</strong> PyTorch와 모델링 — <a href="notebooks/week2_modeling.ipynb">노트북</a> | <a href="slides/week2_modeling.pdf">PDF</a></li>
-    <!-- 추가 내용 -->
-  </ul>
-
-  <h2>📦 설치 방법</h2>
-  <pre><code>pip install torch matplotlib jupyter</code></pre>
-
-  <p>더 많은 정보는 <a href="https://github.com/your-id/ai4science-tutorial">GitHub 저장소</a>를 참고하세요.</p>
+  <table>
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Lesson Link</th>
+        <th>Description</th>
+        <th>Video</th>
+        <th>Extra Learning</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>00</td>
+        <td><a href="week0-setup.html">Course Setup</a></td>
+        <td><strong>Learn:</strong> How to setup your development environment</td>
+        <td>Coming Soon</td>
+        <td><a href="materials/week0_slides.pdf" download>Download PDF</a></td>
+      </tr>
+      <tr>
+        <td>01</td>
+        <td><a href="week1-intro.html">Introduction to Generative AI and LLMs</a></td>
+        <td><strong>Learn:</strong> Understanding what Generative AI is and how LLMs work.</td>
+        <td><a href="https://youtube.com/your_video_link" target="_blank">Video</a></td>
+        <td><a href="materials/week1_notebook.ipynb" download>Jupyter Notebook</a></td>
+      </tr>
+      <tr>
+        <td>02</td>
+        <td><a href="week2-models.html">Exploring and Comparing LLMs</a></td>
+        <td><strong>Learn:</strong> How to select the right model for your use case</td>
+        <td><a href="https://youtube.com/your_video_link2" target="_blank">Video</a></td>
+        <td><a href="materials/week2_slides.pdf" download>Download PDF</a></td>
+      </tr>
+    </tbody>
+  </table>
 </body>
 </html>
