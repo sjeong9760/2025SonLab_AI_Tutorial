@@ -1,65 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>AI4Science Tutorial</title>
-  <style>
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      background-color: #f9f9f9;
-    }
-    th, td {
-      border: 1px solid #ddd;
-      padding: 12px;
-      text-align: left;
-    }
-    th {
-      background-color: #dce6f1;
-    }
-    a {
-      color: #0066cc;
-      text-decoration: underline;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2025 SonLab AI Study </title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>🧪 AI4Science Tutorial</h1>
-  <p>PyTorch 실습 기반의 AI for Science 튜토리얼입니다.</p>
+  <header class="hero">
+    <div class="overlay">
+      <h1>2025 Summer SonLab AI Study: 
+        Machine Learning & Deep Learning for Chemistry</h1>
+    </div>
+  </header>
 
-  <table>
-    <thead>
-      <tr>
-        <th>#</th>
-        <th>Lesson Link</th>
-        <th>Description</th>
-        <th>Video</th>
-        <th>Extra Learning</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>00</td>
-        <td><a href="week0-setup.html">Course Setup</a></td>
-        <td><strong>Learn:</strong> How to setup your development environment</td>
-        <td>Coming Soon</td>
-        <td><a href="materials/week0_slides.pdf" download>Download PDF</a></td>
-      </tr>
-      <tr>
-        <td>01</td>
-        <td><a href="week1-intro.html">Introduction to Generative AI and LLMs</a></td>
-        <td><strong>Learn:</strong> Understanding what Generative AI is and how LLMs work.</td>
-        <td><a href="https://youtube.com/your_video_link" target="_blank">Video</a></td>
-        <td><a href="materials/week1_notebook.ipynb" download>Jupyter Notebook</a></td>
-      </tr>
-      <tr>
-        <td>02</td>
-        <td><a href="week2-models.html">Exploring and Comparing LLMs</a></td>
-        <td><strong>Learn:</strong> How to select the right model for your use case</td>
-        <td><a href="https://youtube.com/your_video_link2" target="_blank">Video</a></td>
-        <td><a href="materials/week2_slides.pdf" download>Download PDF</a></td>
-      </tr>
-    </tbody>
-  </table>
+  <div class="centered-image">
+    <img src="logo.png" alt="AI + Chemistry" />
+  </div>
+
+  <section class="summary">
+    <h2>Summary</h2>
+    <p>
+        This study is designed to introduce chemistry students to the fundamentals of machine learning and deep learning, with a focus on their practical applications in chemical research. Beginning with core concepts such as supervised learning, neural networks, and optimization techniques, the course explores how data-driven approaches are transforming chemical discovery, molecular property prediction, and reaction modeling. It also covers recent advances in generative modeling, including diffusion models and flow matching, which are increasingly relevant in materials design and molecular generation. Hands-on programming sessions using PyTorch will help students build practical skills and gain intuition for how these models are implemented and used in real-world chemistry problems.
+    </p>
+  </section>
+
+  <section class="schedule">
+    <h2>Schedule</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Topic</th>
+          <th>Reading</th>
+          <th>Due</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="section-header">
+          <td colspan="6">Part I: Machine Learning Foundations</td>
+        </tr>
+        <tr>
+          <td>7/16<br>Wed</td>
+          <td><strong>0. Study Introduction</strong><br>
+            • Introduction to machine learning<br>
+            • Setup for practical sessions(Install Pytorch)<br>
+            • Video will be uploded<br>
+          <td>–</td>
+        </tr>
+        <tr>
+          <td>7/23<br>Wed</td>
+          <td><strong>1. Machine learning basics</strong><br>
+            • Overview of (statistical) machine learning<br>
+            • Linear Regression & logistic regression<br>
+            • Multi-label classification<br>
+            • Regression with Pytorch<br>
+          <td>Will be uploaded<br>
+          <td>–</td>
+        </tr>
+        <tr>
+          <td>7/30<br>Tue</td>
+          <td><strong>2. MLP & Overfitting</strong><br>
+            • Multi-layer perceptron regression<br>
+            • Overfitting & EarlyStopping<br>
+            • Regularization<br>
+            • Hyperparameter Tuning<br>
+            • MLP Regression with Pytorch<br>
+          <td>Will be uploded</td>
+          <td class="due">Assignment 1</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
 </body>
 </html>

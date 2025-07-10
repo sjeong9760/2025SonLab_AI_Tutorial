@@ -1,0 +1,110 @@
+/* Reset & Base */
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fff;
+  }
+  
+  /* Hero Banner */
+  .hero {
+    background-image: url("background.png"); /* 바탕화면 이미지 파일명 */
+    background-size: cover;
+    background-position: center;
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .hero .overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 2rem;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 3vw;
+    color: #ffffff;
+    text-shadow: 2px 2px 8px black;
+    margin: 0;
+  }
+  
+  .centered-image {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .centered-image img {
+    margin-top: 4rem;
+    max-width: 20%;
+    height: auto;
+    filter: invert(1);
+    border-radius: 10px;  /* 둥근 모서리 optional */
+  }
+
+  /* Section Styling */
+  section {
+    padding: 3rem 5vw;
+  }
+  
+  .summary h2,
+  .schedule h2 {
+    color: #4caf50;
+    font-size: 2rem;
+  }
+  
+  .summary p {
+    max-width: 800px;
+    font-size: 1.1rem;
+  }
+  
+  /* Table Styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    font-size: 0.95rem;
+  }
+  
+  th, td {
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+    vertical-align: top;
+  }
+  
+  th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .section-header {
+    background-color: #fdd;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .due {
+    color: #2196f3;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .hero h1 {
+      font-size: 6vw;
+    }
+  
+    th, td {
+      font-size: 0.85rem;
+      padding: 0.75rem;
+    }
+  
+    section {
+      padding: 2rem 1rem;
+    }
+  }
+  
