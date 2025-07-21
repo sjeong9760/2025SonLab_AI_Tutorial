@@ -52,7 +52,8 @@ body {
   }
   
   .summary h2,
-  .schedule h2 {
+  .schedule h2,
+  .Resources h2 {
     color: #4caf50;
     font-size: 2rem;
   }
@@ -64,6 +65,13 @@ body {
     margin: 0 auto;
   }
   
+  .Resources p {
+    padding: 3rem 5vw;
+    max-width: 800px;
+    font-size: 1.1rem;
+    margin: 0 auto;
+  }
+
   /* Table Styling */
   table {
     width: 100%;
